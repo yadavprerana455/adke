@@ -1,0 +1,96 @@
+.btn
+{
+    padding:5px 10px 5px 10px;
+    margin: 12px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    color:white;
+    border: none;
+    transition: 0.3s all ease;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 0.6rem;
+    
+    user-select: none;
+    background-color: var(--dark);
+}
+
+.btn:hover
+{
+    background-color: var(--light);
+    
+}
+
+.btn-utility
+{
+    padding:10px;
+    margin: 12px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    color:white;
+    border: none;
+    transition: 0.3s all ease;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 0.6rem;
+    width:80%;
+    user-select: none;
+    background-color: var(--dark);
+}
+
+.btn-utility:hover{
+    background-color:var(--light) ;
+    color: white;
+}
+
+.btn-signup
+{
+    padding-top: -10px;
+    padding: 4px 15px 4px 15px;
+    margin: 1px 20px 19px 20px;
+    width:80%;
+}
+
+.btn-func
+{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 50px 10px 50px;
+    background-color: var(--dark);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s all ease-in;
+    border-radius: 1rem;
+}
+
+.btn-func:hover
+{
+    color: var(--dark);
+    background-color: var(--light);
+   
+}
+
+.btn-invest
+{
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--dark);
+    color: whitesmoke;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s all ease;
+}
+
+.btn-invest:hover
+{
+    color: var(--light);
+}
+
+.align-center
+{
+    text-align: center;
+}
